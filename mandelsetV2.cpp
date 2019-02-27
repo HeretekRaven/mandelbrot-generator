@@ -36,7 +36,7 @@ int mandelset(double xp, double yp){
 
 int main(){
 
-	ofstream img("MandelbrotV3.ppm");
+	ofstream img("Mandelbrot.ppm");
 	img << "P3" << endl;
 	img << "4000 4000" << endl;
 	img << "255" << endl;
