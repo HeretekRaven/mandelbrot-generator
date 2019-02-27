@@ -9,7 +9,7 @@ const double width = 4000, length = 4000;
 int mandelset(double xp, double yp){
 	xp = (xp - 2000.0)/1000.0;	
 	yp = (yp - 2000.0)/1000.0;
-	double c[2]; c[0] = -.420; c[1] = .3428;
+	double c[2]; c[0] = .285; c[1] = .01;
 	int rec = 0;
 	double y[2] = {0,0};
 	double x[2] = {xp,yp};
